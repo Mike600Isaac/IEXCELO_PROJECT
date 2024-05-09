@@ -1,27 +1,32 @@
+/* -------Generic styling------- */
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* -------Sidebar styling---------- */
 .sidebar {
     background-color: #00376f;
-    min-width: 270px;
-    max-width: 270px;
+    min-width: 250px;
+    max-width: 250px;
 }
 
 ul li a {
     transition: background-color 0.35s, color 0.35s;
     color: #ffffff;
+    
 }
 ul li a span {
     transition: background-color 0.25s, color 0.25s;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 10px;
 }
 ul li a:hover span {
     color: #00376F;
-    font-weight: 700;
+    font-weight: 500;
 }
 ul li a rect, ul li a path {
     transition: stroke .025s;
@@ -30,29 +35,101 @@ ul li a:hover rect, ul li a:hover path {
     stroke: #00376F;
 }
 ul li a:hover {
-    /* position: relative; */
     display: block;
     background-color: #ffffff;
     color: #00376F;
 }
 
-/* table styling*/
-
+/* --------main content styling-------- */
 .main-content{
-    background-color: #CAD6E1;
+    background-color: #F0F2F5;
     min-height: 100vh;
     width: 100%;
 }
-.table-background-color {
+/* ----Dashboard menu notifications---*/
+.dashboard-size {
+    font-size: 18px;
+}
+/* ----content title container------- */
+.content-title {
+    background-color: #00376f;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.account-button button {
+    background-color: #E52D8A;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+/*  on click yet to do be done */
+/*.account-button button:click {
+    color: #007FFF;
+  } */
+.account-button button:focus {
+    outline: none;
+}
+.button-container {
+    margin-top: 30px;
+}
+.button-container div button, .question-select {
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #B1C6DC;
+    font-weight: 600;
+}
+.button-container div button:focus {
+    outline: none;
+}
+.info-main-container {
+    padding: 10px 30px 70px 30px;
+}
+
+/* ---Subject selection options--- */
+.subject-selection {
+    margin: 20px 0 40px 0;
+}
+
+.type1-subject-bg, .type2-subject-bg {
+    display: block;
+    padding: 5px 0;
+}
+/* table styling*/
+.type1-subject-bg {
+    background-color: #98B4D0;
+}
+.type2-subject-bg {
+    background-color:  #F2F8FF;
+}
+.table-left-color {
+    color: #04182C;
+}
+.table-right-color {
+    color: #04182C;
+}
+.start-exams-container button {
+    color: #FFFFFF;
+    background-color: #007FFF;
+    border-radius: 7px;
+    padding: 8px 50px;
+    border: none;
+}
+/* .table-background-color {
     background-color: #FFFFFF;
     margin: 10px 0 0 50px;
     border-radius: 10px;
     padding: 10px;
-}
-.text-col {
+} */
+/* .text-col {
     color:#04182C;
     font-weight: 600;
-}
+} */
 /*Table Style One*/
 /* .table .table-header{
     background: #00376F;
