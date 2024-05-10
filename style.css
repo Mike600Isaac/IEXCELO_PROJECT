@@ -10,6 +10,13 @@ body {
     background-color: #00376f;
     min-width: 250px;
     max-width: 250px;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden;
 }
 
 ul li a {
@@ -43,19 +50,20 @@ ul li a:hover {
 /* --------main content styling-------- */
 .main-content{
     background-color: #F0F2F5;
-    min-height: 100vh;
+    height: 100%;
     width: 100%;
 }
-/* ----Dashboard menu notifications---*/
+/* ----Dashboard menu notifications--- */
 .dashboard-size {
     font-size: 18px;
 }
+
 /* ----content title container------- */
 .content-title {
     background-color: #00376f;
     color: #ffffff;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 80px;
     border-radius: 10px;
 }
 .account-button button {
@@ -65,7 +73,7 @@ ul li a:hover {
     padding: 10px;
     border: none;
 }
-/*  on click yet to do be done */
+/*  ---on click yet to do be done--- */
 /*.account-button button:click {
     color: #007FFF;
   } */
@@ -76,8 +84,7 @@ ul li a:hover {
     margin-top: 30px;
 }
 .button-container div button, .question-select {
-    height: 45px;
-    width: 150px;
+    padding: 10px 35px;
     border-radius: 10px;
     border: none;
     color: #ffffff;
@@ -100,7 +107,8 @@ ul li a:hover {
     display: block;
     padding: 5px 0;
 }
-/* table styling*/
+
+/* -------table styling------- */
 .type1-subject-bg {
     background-color: #98B4D0;
 }
@@ -120,125 +128,9 @@ ul li a:hover {
     padding: 8px 50px;
     border: none;
 }
-/* .table-background-color {
-    background-color: #FFFFFF;
-    margin: 10px 0 0 50px;
-    border-radius: 10px;
-    padding: 10px;
-} */
-/* .text-col {
-    color:#04182C;
-    font-weight: 600;
-} */
-/*Table Style One*/
-/* .table .table-header{
-    background: #00376F;
-    color:#FFFFFF;
-}
-.table .table-header .cell, tr td{
-  text-align: center;
-}
-.table .table-header .active {
-background-color: #F2F8FF;
-}
-tr td {
-background-color: #E4EEF8;
-}
-.row-border{
-border-right: 1px solid #CAD6E1;
-border-left: 1px solid #CAD6E1;
-}
-@media screen and (max-width: 640px){
-    table {
-        overflow-x: auto;
-        display: block;
-    }
-    .table .table-header .cell{
-        padding:20px 5px;
-    }
-}
- .container-text-search {
-    display: flex;
-    align-items: center;
-    gap: 730px;
-    width: 100%;
-    font-weight: 700;
-    font-size: 18px;
-}
-.table-title {
-    color: #04182C;
-}
-.has-search {
-    width: 250px;
-    height: 15px;
-} */
-/* styling for exams links */
-/* .table-container {
-    background-color: #FFFFFF;
-    margin: 5px 0 0 10px;
-    border-radius: 10px;
-    padding: 10px;
-}
-.text-col {
-    color:#04182C;
-    font-weight: 700;
-} */
-/*Table Style One*/
-/* div div div .table .table-header .cell, tr td{
-  text-align: center;
-  background: #00376F;
-    color:#FFFFFF;
-}
-div div div .table .table-header .active {
-background-color: #F2F8FF;
-}
-tr td {
-background-color: #E4EEF8;
-}
-.row-border{
-border-right: 1px solid #CAD6E1;
-border-left: 1px solid #CAD6E1;
-}
-@media screen and (max-width: 640px){
-    table {
-        overflow-x: auto;
-        display: block;
-    }
-    div div div .table .table-header .cell{
-        padding:20px 5px;
-    }
-}
-.exam-container { */
-    /* margin-left: 50px; */
-    
-/* }
-.exam-box {
-    border: 2px solid #00376F;
-    text-align: center;
-    border-radius: 5px;
-    margin: 10px 0;
-    background-color: #FFFFFF;
-    padding: 5px 0;
-}
-
-.exam-box a {
-    color: #04182C;
-    display: block;
-    text-decoration: none;
-} */
-
-
-
-/* header container */
-/* .head-container {
-    position: sticky;
-    top: 30px;
-    background-color: #CAD6E1;
-} */
 .main-content .container {
     padding: 0 60px;
 }
-
 h1 {
     color: #04182C;
     font-weight: 700;
@@ -249,7 +141,6 @@ h1 {
     width: 40px;
     border-radius: 50%;
 }
-
 .content-main-color, #calender {
     color: #727D88;
 }
