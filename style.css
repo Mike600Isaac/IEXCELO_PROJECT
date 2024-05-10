@@ -55,15 +55,16 @@ ul li a:hover {
 }
 /* ----Dashboard menu notifications--- */
 .dashboard-size {
-    font-size: 18px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
 }
-
 /* ----content title container------- */
 .content-title {
     background-color: #00376f;
     color: #ffffff;
     padding: 10px;
-    margin-top: 80px;
+    margin-top: 60px;
     border-radius: 10px;
 }
 .account-button button {
@@ -100,7 +101,7 @@ ul li a:hover {
 
 /* ---Subject selection options--- */
 .subject-selection {
-    margin: 20px 0 40px 0;
+    margin-top: 20px;
 }
 
 .type1-subject-bg, .type2-subject-bg {
@@ -124,6 +125,7 @@ ul li a:hover {
 .start-exams-container button {
     color: #FFFFFF;
     background-color: #007FFF;
+    font-weight: 700;
     border-radius: 7px;
     padding: 8px 50px;
     border: none;
@@ -149,4 +151,20 @@ h1 {
 }
 .update-button:focus, #calender:focus {
     outline: none;
+}
+
+/* -----exam_screen2 css styling---- */
+.select-main-container {
+    padding-bottom: 200px;
+    color: #727D88;
+}
+.start-exams-container {
+    margin-top: 70px;
+}
+.select-main-container select {
+    width: 94%; 
+    background-color: #00376F; 
+    color: #FFFFFF; 
+    border: none; 
+    border-radius: 5px;
 }
