@@ -127,7 +127,7 @@ ul li a:hover {
     background-color: #007FFF;
     font-weight: 700;
     border-radius: 7px;
-    padding: 8px 50px;
+    padding: 8px 40px;
     border: none;
 }
 .main-content .container {
@@ -167,4 +167,64 @@ h1 {
     color: #FFFFFF; 
     border: none; 
     border-radius: 5px;
+}
+/* -----question css styling---- */
+.submit-answer-container button {
+    color: #FFFFFF;
+    background-color: #00376F;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 8px 20px;
+    border: none;
+    margin: 40px 0 10px 0;
+}
+
+/* -----search-topic----- */
+.search-topic input {
+    border: 1px solid #B8D5F3;
+    background-color: #DDECFB;
+    border-radius: 5px;
+    padding: 0 5px;
+    width:  140px;
+}
+.search-topic input:focus {
+    outline: none;
+}
+
+/* -----go-back-subject-cont-------- */
+.go-back-subject-cont a span {
+    font-size: 20px; 
+    color: #00376F; 
+    font-weight: 700;
+}
+.student_sub span {
+    font-size: 24px; 
+    color: #212529; 
+    font-weight: 700;
+}
+/* --additional question-score-container styling-- */
+
+.select-main-container {
+    padding-bottom: 40px; 
+    background-color: #ffffff;
+}
+.question-flex-search div {
+    font-weight: 700;
+    max-width: 65%;
+}
+.score-container {
+    width: 190px; 
+    height: 140px; 
+    border-radius: 20px; 
+    font-weight: 700; 
+    font-size: 16px;
+}
+.score-in-perc {
+    height: 40px; 
+    background-color: #007FFF; 
+    color: #ffffff;
+}
+.fail-pass-container {
+    background-color: #DDECFB; 
+    height: 100px;
 }
