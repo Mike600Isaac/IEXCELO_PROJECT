@@ -228,3 +228,9 @@ h1 {
     background-color: #DDECFB; 
     height: 100px;
 }
+
+/* -----subscription_screen1_styling---- */
+.select-main-container div div span {
+    font-weight: 700;
+    font-size: 16px;
+}
