@@ -235,3 +235,16 @@ h1 {
     font-weight: 700;
     font-size: 16px;
 }
+
+/* -----subscription_pending_styling---- */
+.select-main-container article {
+    color: #04182C;
+    font-size: 22px;
+    font-weight: 700;
+}
+.select-main-container .pending-icon svg {
+    -webkit-transition: -webkit-transform 1s;
+}
+.select-main-container .pending-icon svg:hover {
+    -webkit-transform: rotate(360deg) translateZ(0);
+}
