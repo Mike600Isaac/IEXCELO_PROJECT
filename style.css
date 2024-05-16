@@ -269,7 +269,11 @@ h1 {
 .bank-radio {
     font-size: 20px;
 }
-.payment header {
+.bank-d-color {
+    background-color: #F2F8FF; 
+    color: #727D88
+}
+.payment header, .payment_header {
     color: #04182C; 
     font-weight: 700; 
     font-size: 24px;
@@ -295,4 +299,17 @@ h1 {
 .acc-info p {
     padding: 0;
     margin: 0;
+}
+/* -----------review_screen2-------- */
+.next-qa {
+    font-size: 20px; 
+    font-weight: 700; 
+    text-decoration: none;
+    color: #ffffff;
+}
+.opt {
+    margin: 0 0 5px 0;
+}
+.ans {
+    color: #008000;
 }
