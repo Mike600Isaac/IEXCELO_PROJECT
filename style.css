@@ -68,6 +68,10 @@ ul li a:hover {
     margin-top: 10px;
     border-radius: 10px;
 }
+.text-white {
+    font-size: 35px; 
+    margin-bottom: 0;
+}
 .account-button button {
     background-color: #E52D8A;
     color: #ffffff;
@@ -300,6 +304,72 @@ h1 {
     padding: 0;
     margin: 0;
 }
+/* ----------review_screen--------- */
+/*Table Style One*/
+.table .table-header .cell {
+    background: #00376F;
+    color:#FFFFFF;
+}
+.table .table-header .cell, tr td{
+  text-align: center;
+}
+.cor-1 td {
+background-color: #F2F8FF;
+padding: 10px 0;
+color: #727D88;
+font-size: 16px;
+}
+.cor-2 td {
+background-color: #E4EEF8;
+padding: 10px 0;
+color: #727D88;
+font-size: 16px;
+}
+.row-border{
+border-right: 1px solid #CAD6E1;
+border-left: 1px solid #CAD6E1;
+}
+.f-weight {
+    font-weight: 700;
+}
+.cor-1 .fail-color, .cor-2 .fail-color {
+    color: #E52D2D;
+}
+.cor-2 .pass-color, .cor-1 .pass-color {
+    color: #008000;
+}
+.next-col {
+    background-color: #007FFF;
+    padding: 2px 4px;
+    border-radius: 50%;
+}
+.previous-col {
+    background-color: #A1C7ED;
+    padding: 2px 4px;
+    border-radius: 50%;
+}
+@media screen and (max-width: 640px){
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+    .table .table-header .cell{
+        padding:20px 5px;
+    }
+}
+.table-button {
+    color: #ffffff; 
+    background-color: #E52D8A; 
+    border-radius: 7px; 
+    padding: 5px 30px;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+.table-button:focus {
+    outline: none;
+}
+
 /* -----------review_screen2-------- */
 .next-qa {
     font-size: 20px; 
@@ -312,4 +382,14 @@ h1 {
 }
 .ans {
     color: #008000;
+}
+/* ------billing information------- */
+.card-style {
+    background-color: #F2F8FF;
+    padding: 0 15px;
+    border: 1px solid #BFBFBF;
+    border-radius: 10px;
+}
+.card-style:focus {
+    outline: none;
 }
