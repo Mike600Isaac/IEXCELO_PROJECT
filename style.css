@@ -239,6 +239,10 @@ h1 {
     font-weight: 700;
     font-size: 16px;
 }
+.revision {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
 
 /* -----subscription_pending_styling---- */
 .select-main-container article {
@@ -246,12 +250,12 @@ h1 {
     font-size: 22px;
     font-weight: 700;
 }
-.select-main-container .pending-icon svg {
+/* .select-main-container .pending-icon svg {
     -webkit-transition: -webkit-transform 1s;
 }
 .select-main-container .pending-icon svg:hover {
     -webkit-transform: rotate(360deg) translateZ(0);
-}
+} */
 
 
 /* -----Subscription_Details_screen_2---- */
@@ -305,6 +309,19 @@ h1 {
     margin: 0;
 }
 /* ----------review_screen--------- */
+.entries-search-cont .entries-list {
+    background-color: #00376F; 
+    color: #fff; 
+    border-radius: 5px; 
+    padding: 1px 2px; 
+    font-weight: 400; 
+    text-decoration: none; 
+    width: 50px; 
+    border: none;
+}
+.entries-list:focus {
+    outline: none;
+}
 /*Table Style One*/
 .table .table-header .cell {
     background: #00376F;
