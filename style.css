@@ -3,6 +3,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 /* -------Sidebar styling---------- */
@@ -10,8 +11,6 @@ body {
     background-color: #00376f;
     min-width: 250px;
     max-width: 250px;
-     /* Full-height: remove this if you want "auto" height */
-    /*position: fixed;  Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
@@ -79,10 +78,7 @@ ul li a:hover {
     padding: 10px;
     border: none;
 }
-/*  ---on click yet to do be done--- */
-/*.account-button button:click {
-    color: #007FFF;
-  } */
+
 .account-button button:focus {
     outline: none;
 }
@@ -409,4 +405,26 @@ border-left: 1px solid #CAD6E1;
 }
 .card-style:focus {
     outline: none;
+}
+
+/* ------ subs_bank_upload sterling ------- */
+.upload-file {
+    display: none;
+}
+label p {
+    margin: 0; 
+}
+.p-sty-2 {
+    color: #04182C;
+}
+label {
+    display: inline-block;
+    background-color: #DDECFB;
+     cursor: pointer;
+     text-align: center;
+    border: 1px dashed #007FFF; 
+    font-size: 18px; 
+    font-weight: 500;
+    border-radius: 5px; 
+    padding: 15px 150px;
 }
