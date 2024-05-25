@@ -4,8 +4,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     outline: none;
+    font-family: "Montserrat", sans-serif;
 }
-
 /* -------Sidebar styling---------- */
 .sidebar {
     background-color: #00376f;
@@ -246,13 +246,6 @@ h1 {
     font-size: 22px;
     font-weight: 700;
 }
-/* .select-main-container .pending-icon svg {
-    -webkit-transition: -webkit-transform 1s;
-}
-.select-main-container .pending-icon svg:hover {
-    -webkit-transform: rotate(360deg) translateZ(0);
-} */
-
 
 /* -----Subscription_Details_screen_2---- */
 .currency {
@@ -304,6 +297,7 @@ h1 {
     padding: 0;
     margin: 0;
 }
+
 /* ----------review_screen--------- */
 .entries-search-cont .entries-list {
     background-color: #00376F; 
@@ -396,6 +390,7 @@ border-left: 1px solid #CAD6E1;
 .ans {
     color: #008000;
 }
+
 /* ------billing information------- */
 .card-style {
     background-color: #F2F8FF;
