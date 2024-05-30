@@ -162,6 +162,10 @@ body {
     border-radius: 7px;
     padding: 8px 40px;
     border: none;
+    transition: opcaity 0.25ms;
+}
+.start-exams-container button:hover { 
+    opacity: 0.8;
 }
 .main-content .container {
     padding: 0 60px;
@@ -212,16 +216,22 @@ h1 {
     margin: 40px 0 10px 0;
 }
 
+.select-main-container .flut-red {
+    width: 150px;
+}
+
 /* -----search-topic----- */
 .search-topic input {
     border: 1px solid #B8D5F3;
     background-color: #DDECFB;
-    border-radius: 5px;
-    padding: 0 5px;
+    border-radius: 7px;
+    padding: 5px;
     width:  140px;
+    transition: box-shadow 0.25ms;
 }
 .search-topic input:focus {
     outline: none;
+    box-shadow: 3px 5px 5px rgba(220,238,254, 0.8);
 }
 
 /* -----go-back-subject-cont-------- */
