@@ -5,9 +5,41 @@ body {
     box-sizing: border-box;
     outline: none;
     font-family: "Montserrat", sans-serif;
+    background-color: #F0F2F5;
 }
+/* -------Main-NavBar Styling----- */
+.student-login, .parent-login, .sponsor-login {
+    /* background-color: #F0F2F5; */
+}
+.student-login .navbar {
+    background-color: #fff;
+}
+.main-link {
+    font-size: 16px;    
+    font-weight: 500; 
+    color: #53585D;
+}
+.log-sign {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.login {
+    color: #53585D;
+}
+.signup {
+    background-color: #007FFF;
+    color: #fff; 
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: opacity 0.3ms;
+}
+.signup:hover {
+    opacity: 0.8;
+}
+
 /* -------Sidebar styling---------- */
-.sidebar {
+.SideBar {
     background-color: #00376f;
     min-width: 250px;
     max-width: 250px;
@@ -18,29 +50,29 @@ body {
     overflow-y: hidden;
 }
 
-ul li a {
+.ul-cont li a {
     transition: background-color 0.35s, color 0.35s;
     color: #ffffff;
     
 }
-ul li a span {
+.ul-cont li a span {
     transition: background-color 0.25s, color 0.25s;
     color: #ffffff;
     font-weight: 500;
     font-size: 18px;
     padding-left: 10px;
 }
-ul li a:hover span {
+.ul-cont li a:hover span {
     color: #00376F;
     font-weight: 500;
 }
-ul li a rect, ul li a path {
+.ul-cont li a rect, .ul-cont li a path {
     transition: stroke .025s;
 }
-ul li a:hover rect, ul li a:hover path {
+.ul-cont li a:hover rect, .ul-cont li a:hover path {
     stroke: #00376F;
 }
-ul li a:hover {
+.ul-cont li a:hover {
     display: block;
     background-color: #ffffff;
     color: #00376F;
@@ -412,7 +444,7 @@ label p {
 .p-sty-2 {
     color: #04182C;
 }
-label {
+.upload-label {
     display: inline-block;
     background-color: #DDECFB;
      cursor: pointer;
@@ -422,4 +454,155 @@ label {
     font-weight: 500;
     border-radius: 5px; 
     padding: 15px 150px;
+}
+/* Student-main-contents */
+.cont-left {
+    background-color: #00376F;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px 0 0 20px;
+    padding-top: 70px;
+    position: relative;
+}
+.fixed-image-1 {
+    position: absolute;
+    top: 180px;
+    left: 500px;
+}
+.fixed-image-2 {
+    position: absolute;
+    top: 140px;
+    left: 450px;
+}
+.fixed-image-3 {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+.fixed-image-4 {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+.cont-right {
+    background-color: #ffffff;
+    border-radius: 0 20px 20px 0;
+    color: #939BA1;
+}
+.cont-right .head-title {
+    color: #E52D8A; 
+    font-weight: 700; 
+    font-size: 30px;
+}
+.cont-right .pass-col {
+    color: #727D88;
+    transition: opacity 0.3ms;
+}
+.cont-right p .pass-col:hover {
+    opacity: 0.9;
+}
+.cont-right p {
+    text-align: center;
+}
+.form-sty label {
+    color: #001D35;
+    font-weight: 700;
+    font-size: 16px;
+}
+.form-sty input {
+    width: 100%;
+    background-color: #DCEEFE;
+    border: 1px solid #007FFF;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.form-sty input {
+    width: 100%;
+    background-color: #DCEEFE;
+    border: 1px solid #007FFF;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 18px;
+    transition: box-shadow 0.25ms;
+}
+.form-sty input:focus {
+    outline: none;
+    box-shadow: 3px 5px 5px rgba(220,238,254, 0.8);
+}
+
+.catgry-login {
+    background-color: #007FFF;
+    color: #fff; 
+    padding: 10px 65px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: opacity 0.3ms;
+}
+.catgry-login:hover {
+    opacity: 0.8;
+}
+
+/* -----Footer Styliing---- */
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+}
+.second-cont p a, .third-cont p a {
+    color: #ffffffff;
+    text-decoration: none;
+} 
+.second-cont p, .third-cont p {
+    margin: 10px 0;
+}
+.second-cont p a, .third-cont p a {
+    margin: 10px 0;
+    transition: opacity 0.25ms;
+}
+.second-cont p a:hover, .third-cont p a:hover {
+   opacity: 0.8;
+}
+.bold-q-link {
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.last-cont p a {
+    transition: transform 0.25ms;
+}
+.last-cont p a img:hover {
+    transform: scaleY(1.1);
+}
+
+@media(max-width: 991px) {
+    .test {
+        flex-direction: column;
+        text-align: center;
+    }
+    .cont-left {
+        border-radius: 20px 20px 0 0;
+    }
+    .cont-right {
+        border-radius: 0 0 20px 20px;
+    }
+    .footer-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-cont .first-cont, .footer-cont .second-cont, .footer-cont .third-cont {
+        text-align: center;
+    }
+    .last-cont {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .last-cont-text {
+        text-align: center;
+    }
 }
